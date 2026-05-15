@@ -34,19 +34,6 @@ A full-stack AI-powered legal document processing system that analyzes documents
 - **Side-by-Side Editing**: Compare original and edited content
 - **Quick Actions**: View, Edit, Delete operations throughout interface
 
-### Architecture Diagrams
-![High-Level Architecture](https://i.imgur.com/7ZkQZ7L.png)  
-*High-level component diagram showing data flow between all system parts*
-
-![Database Schema](https://i.imgur.com/5XQZ9yY.png)  
-*Entity-Relationship diagram showing foreign key relationships and cascade deletions*
-
-![Upload Flow](https://i.imgur.com/9KdPZ7x.png)  
-*Document upload & processing workflow*
-
-![Draft Flow](https://i.imgur.com/3WqRf2L.png)  
-*Draft generation, editing, and version control flow*
-
 ---
 
 ## 🏗️ Architecture
@@ -72,6 +59,19 @@ OCR & Processing:
   - Tesseract / PaddleOCR / EasyOCR (Text extraction)
   - pandas (Data extraction)
 ```
+
+### Architecture Diagrams
+![High-Level Architecture](https://i.imgur.com/7ZkQZ7L.png)  
+*High-level component diagram showing data flow between all system parts*
+
+![Database Schema](https://i.imgur.com/5XQZ9yY.png)  
+*Entity-Relationship diagram showing foreign key relationships and cascade deletions*
+
+![Upload Flow](https://i.imgur.com/9KdPZ7x.png)  
+*Document upload & processing workflow*
+
+![Draft Flow](https://i.imgur.com/3WqRf2L.png)  
+*Draft generation, editing, and version control flow*
 
 ### System Components
 
