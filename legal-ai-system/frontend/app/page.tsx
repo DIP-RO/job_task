@@ -2,12 +2,12 @@
 
 import { useState, useEffect } from 'react';
 import Header from '@/components/Header';
+import Navigation from '@/components/Navigation';
 import UploadSection from '@/components/sections/UploadSection';
 import GenerateSection from '@/components/sections/GenerateSection';
 import EditSection from '@/components/sections/EditSection';
 import HistorySection from '@/components/sections/HistorySection';
 import AllDraftsSection from '@/components/sections/AllDraftsSection';
-import Footer from '@/components/Footer';
 import { checkApiHealth } from '@/lib/api';
 import EditModal from '@/components/EditModal';
 import { Draft } from '@/lib/types';
@@ -122,7 +122,6 @@ export default function Home() {
         />
       )}
 
-      <Footer />
     </div>
   );
 }
