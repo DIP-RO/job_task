@@ -61,8 +61,109 @@ OCR & Processing:
 ```
 
 ### Architecture Diagrams
-![System Architecture Diagram](./docs/architecture.svg)  
-*High-level component diagram showing data flow between all system parts*
+```mermaid
+flowchart LR
+    A[Frontend<br/>Next.js 14] --> B[Backend API Layer<br/>FastAPI]
+    B --> C[Database<br/>PostgreSQL/SQLite]
+    B --> D[Vector DB<br/>ChromaDB]
+    B --> E[External Services<br/>OpenAI GPT-4o, Tesseract OCR, Redis]
+    E --> B
+    
+    subgraph Frontend Components
+    A1[Upload Section]
+    A2[Generate Section]
+    A3[All Drafts Section]
+    A4[Edit Section]
+    A5[History Section]
+    end
+    
+    subgraph Backend Controllers
+    B1[Document Controller]
+    B2[Draft Controller]
+    B3[Edit Controller]
+    end
+    
+    A --> A1 & A2 & A3 & A4 & A5
+    B --> B1 & B2 & B3
+```
+*High-level component diagram showing data flow between all system parts (rendered via GitHub Mermaid)*
+
+```mermaid
+erDiagram
+    DOCUMENTS ||--o{ DRAFTS : generates
+    DOCUMENTS {
+        int id PK
+        string filename
+        string file_type
+        datetime upload_date
+        string status
+        float ocr_quality
+        text extracted_text
+    }
+    DRAFTS ||--o{ EDITS : has
+    DRAFTS {
+        int id PK
+        int document_id FK
+        string draft_type
+        text content
+        float grounding_score
+        float completeness_score
+        datetime created_at
+    }
+    EDITS {
+        int id PK
+        int draft_id FK
+        text original_content
+        text edited_content
+        string feedback_category
+        datetime edited_at
+    }
+```
+*Database schema with foreign key relationships and cascade deletions*
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Frontend
+    participant Backend
+    participant OCR
+    participant VectorDB
+    
+    User->>Frontend: Upload Document
+    Frontend->>Backend: POST /documents/upload
+    Backend->>Backend: Save file to disk
+    Backend->>OCR: Trigger text extraction
+    OCR->>Backend: Return extracted text
+    Backend->>VectorDB: Store embeddings
+    VectorDB->>Backend: Confirm storage
+    Backend->>Frontend: Return document ID & status
+    Frontend->>User: Show document in list
+```
+*Document upload & processing workflow*
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Frontend
+    participant Backend
+    participant LLM
+    participant Database
+    
+    User->>Frontend: Select document & draft type
+    Frontend->>Backend: POST /drafts/generate
+    Backend->>LLM: Generate draft with source context
+    LLM->>Backend: Return draft with scores
+    Backend->>Database: Save draft record
+    Database->>Backend: Confirm save
+    Backend->>Frontend: Return draft details
+    Frontend->>User: Display draft
+    User->>Frontend: Submit edits & feedback
+    Frontend->>Backend: POST /edits/record
+    Backend->>Backend: Extract learning patterns
+    Backend->>Database: Update learned_patterns.json
+    Backend->>Frontend: Confirm edit recorded
+```
+*Draft generation, editing, and version control flow*
 
 ### System Components
 
