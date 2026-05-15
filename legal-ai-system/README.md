@@ -61,17 +61,8 @@ OCR & Processing:
 ```
 
 ### Architecture Diagrams
-![High-Level Architecture](https://i.imgur.com/7ZkQZ7L.png)  
+![System Architecture Diagram](./docs/architecture.svg)  
 *High-level component diagram showing data flow between all system parts*
-
-![Database Schema](https://i.imgur.com/5XQZ9yY.png)  
-*Entity-Relationship diagram showing foreign key relationships and cascade deletions*
-
-![Upload Flow](https://i.imgur.com/9KdPZ7x.png)  
-*Document upload & processing workflow*
-
-![Draft Flow](https://i.imgur.com/3WqRf2L.png)  
-*Draft generation, editing, and version control flow*
 
 ### System Components
 
