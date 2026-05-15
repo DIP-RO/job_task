@@ -1,0 +1,26 @@
+# REGULATORY NOTICE SUMMARY: Chapter 7 Bankruptcy Notice
+Issuing Authority: United States Bankruptcy Court, District of Delaware
+Notice Date: March 1, 2024
+Case Number: 24-10567
+
+## KEY DEADLINES
+1. Proofs of Claim must be filed by June 1, 2024 (Section 2.1, Page 1) - Failure to meet this deadline will result in inability to recover on claims
+2. Meeting of creditors pursuant to 11 U.S.C. § 341 will be held on April 15, 2024 at 10:00 AM ET (Section 3.1, Page 2)
+3. Deadline to object to discharge: July 1, 2024 (Section 4.2, Page 3)
+
+## REQUIRED ACTIONS
+- All creditors must file a formal proof of claim using Court Form 10 to participate in distributions
+- The debtor must submit all financial statements to the bankruptcy trustee by March 15, 2024
+- Any creditor wishing to object to the debtor's discharge must file a written motion with the court and serve all parties
+- The debtor must complete the second course in financial management before July 15, 2024 to receive a discharge
+
+## PENALTIES FOR NON-COMPLIANCE
+- Failure to file proof of claim by June 1 results in claim being barred from any distribution (Section 5.1, Page 4)
+- Debtor's failure to complete financial management course will result in denial of discharge (Section 6.3, Page 5)
+- Failure to appear at the §341 meeting may result in dismissal of the bankruptcy case
+
+## RESPONSIBLE PARTIES
+- Debtor: ABC Retail Holdings, Inc. (represented by counsel Jane Doe, Esq.)
+- Bankruptcy Trustee: Robert Johnson, CPA
+- Court Clerk: Sarah Williams
+- All creditors holding unsecured or secured claims against the debtor

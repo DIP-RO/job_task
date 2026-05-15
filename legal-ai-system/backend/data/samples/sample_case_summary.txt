@@ -1,0 +1,41 @@
+CASE FACT SUMMARY
+Case Number: 2023-CV-45821
+
+PARTIES:
+Plaintiff: Johnson Manufacturing Corp, a Delaware corporation
+Defendant: Sterling Logistics LLC, a Nevada limited liability company
+
+JURISDICTION:
+U.S. District Court for the District of California, Northern Division
+
+FILE DATE: March 15, 2023
+
+FACTS:
+On January 12, 2022, Johnson Manufacturing Corp entered into a comprehensive contract with Sterling Logistics LLC for the provision of supply chain and logistics services. The contract, executed by authorized representatives of both parties, specified delivery timelines, quality standards, and performance metrics.
+
+According to the contract (Exhibit A), Sterling Logistics agreed to maintain a 98% on-time delivery rate and provide damage-free shipment of goods. The agreement stipulated monthly performance reports and remedies for breach.
+
+On May 3, 2022, Johnson Manufacturing reported discrepancies in delivery records. Multiple shipments arrived late and with damage. By August 2022, cumulative losses exceeded $250,000. Despite repeated demands, Sterling Logistics failed to remedy the situation.
+
+On February 1, 2023, Johnson Manufacturing sent formal notice of breach. Sterling Logistics responded on February 15, 2023, disputing the claims and alleging force majeure due to port strikes.
+
+CLAIMS:
+1. Breach of Contract
+2. Failure to Meet Performance Standards
+3. Consequential Damages
+4. Breach of Implied Covenant of Good Faith and Fair Dealing
+
+RELIEF SOUGHT:
+- $250,000 in compensatory damages
+- $75,000 in consequential damages
+- Costs and attorney fees
+- Pre-judgment interest
+
+CASE STATUS: Pending Discovery Phase
+
+DOCUMENTS IN RECORD:
+1. Original Contract (01/12/2022)
+2. Delivery Logs (01/2022 - 08/2022)
+3. Damage Reports (5 incidents)
+4. Demand Letters (02/01/2023, 02/15/2023)
+5. Expert Report on Logistics Industry Standards

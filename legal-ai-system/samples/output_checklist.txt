@@ -1,0 +1,29 @@
+[ ] Verify service term commencement date
+Document Reference: Section 1.1, Page 1 - "The term of this Agreement shall commence on the Effective Date and continue for a period of three (3) years unless earlier terminated pursuant to Section 8"
+Risk Level: Medium
+Potential Red Flags: Effective date not properly documented, commencement date conflicts with other agreements
+Verification Criteria: Confirm effective date is signed by both parties, term period matches statement of work
+
+[ ] Verify payment terms compliance
+Document Reference: Section 3.2, Page 2 - "Vendor shall submit invoices monthly by the 5th business day; Client shall pay all undisputed invoices within thirty (30) days of receipt"
+Risk Level: High
+Potential Red Flags: Late payment penalties not enforced, invoicing schedule not followed, disputed amounts not properly reserved
+Verification Criteria: Audit recent invoices to confirm submission dates, verify payment timelines match contractual requirements, review dispute resolution process
+
+[ ] Confirm confidentiality obligations coverage
+Document Reference: Section 5.1, Page 3 - "Vendor shall hold all Client Confidential Information in strict confidence for a period of five (5) years following termination"
+Risk Level: Critical
+Potential Red Flags: Confidentiality period expires prematurely, exceptions not properly documented, third-party access not authorized
+Verification Criteria: Confirm confidentiality agreement is in effect, review data handling procedures, verify access controls for sensitive information
+
+[ ] Verify termination notice requirements
+Document Reference: Section 8.1, Page 4 - "Either party may terminate this Agreement for cause upon thirty (30) days' written notice to the other party of a material breach"
+Risk Level: High
+Potential Red Flags: Notice period insufficient per state law, cure rights not properly outlined, termination triggers undefined
+Verification Criteria: Confirm notice period meets legal requirements, cure provisions are properly documented, material breach definition is clear
+
+[ ] Confirm indemnification obligations are properly allocated
+Document Reference: Section 7.2, Page 4 - "Vendor shall indemnify, defend and hold harmless Client from any claims arising from Vendor's negligence or breach of this Agreement"
+Risk Level: Critical
+Potential Red Flags: Indemnification caps too low, coverage excludes third-party claims, insurance requirements not met
+Verification Criteria: Review insurance certificates, confirm indemnification caps are sufficient for potential exposure, verify all negligence claims are covered

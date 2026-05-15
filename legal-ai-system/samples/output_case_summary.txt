@@ -1,0 +1,32 @@
+# CASE SUMMARY: John Smith v. Acme Corporation
+Case Number: 2024-CV-01234
+Jurisdiction: United States District Court, Southern District of New York
+Filing Date: January 15, 2024
+
+## PARTIES
+- Plaintiff: John Smith (individual plaintiff, former employee of Acme Corp)
+- Defendant: Acme Corporation (Delaware corporation with principal place of business in New York, NY)
+
+## PROCEDURAL HISTORY
+1. Jan 15, 2024: Complaint filed by Plaintiff alleging wrongful termination and discrimination
+2. Feb 28, 2024: Defendant files Answer and Counterclaims
+3. Mar 15, 2024: Court issues Scheduling Order with discovery deadline of August 15, 2024
+4. Apr 1, 2024: First Case Management Conference held
+
+## CORE FACTS (all extracted from Complaint)
+1. Plaintiff was employed by Acme Corporation from March 15, 2019 to December 10, 2023 (Section 1, Page 2)
+2. Plaintiff's last position was Senior Software Engineer with annual salary of $185,000 (Section 2, Page 3)
+3. Plaintiff was terminated on December 10, 2023, with the company citing "restructuring" as the reason (Complaint, Page 4)
+4. Plaintiff alleges that the real reason for termination was age discrimination, as four of the five employees terminated in the same restructuring were over 50 years old (Section 3, Page 5)
+5. The company hired three younger employees to replace the terminated senior staff members within 30 days of the termination (Section 4, Page 6)
+
+## LEGAL CLAIMS
+1. Wrongful termination in violation of New York labor law (Section 5, Page 7)
+2. Age discrimination in violation of the Age Discrimination in Employment Act (ADEA), 29 U.S.C. § 621 et seq. (Section 6, Page 8)
+3. Breach of implied covenant of good faith and fair dealing (Section 7, Page 9)
+
+## RELIEF SOUGHT
+- Compensatory damages: $500,000 for lost wages and benefits
+- Punitive damages: $1,000,000 for willful discrimination
+- Attorney's fees and costs pursuant to 29 U.S.C. § 626
+- Injunctive relief prohibiting the company from continuing discriminatory practices

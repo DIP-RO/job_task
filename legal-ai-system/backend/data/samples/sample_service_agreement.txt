@@ -1,0 +1,71 @@
+SERVICE AGREEMENT
+
+This Service Agreement (the "Agreement") is made and entered into on March 1, 2023 (the "Effective Date"), by and between:
+
+SERVICE PROVIDER:
+CloudTech Solutions Inc., a California corporation, with its principal place of business at 789 Cloud Drive, San Francisco, California 94105 (hereinafter "Provider")
+
+SERVICE RECIPIENT:
+Enterprise Systems Corp., a Delaware corporation, with its principal place of business at 123 Main Street, New York, New York 10001 (hereinafter "Client")
+
+WHEREAS, Provider is in the business of providing cloud computing and data management services; and
+
+WHEREAS, Client desires to engage Provider to furnish such services; and
+
+WHEREAS, Provider agrees to provide such services under the terms and conditions contained herein;
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
+
+1. SERVICES
+
+Provider shall provide the following services to Client:
+1.1 Cloud Infrastructure Management
+1.2 Data Storage and Backup Services
+1.3 Security Monitoring and Updates
+1.4 24/7 Technical Support
+1.5 Monthly Performance Reports
+
+2. TERM AND TERMINATION
+
+2.1 This Agreement shall commence on the Effective Date and shall continue for an initial term of twelve (12) months.
+2.2 Either party may terminate this Agreement upon thirty (30) days written notice.
+2.3 Termination for cause may occur immediately upon written notice if a material breach is not cured within fifteen (15) days.
+
+3. COMPENSATION
+
+3.1 Client shall pay Provider a monthly fee of $5,000 for the services described herein.
+3.2 Payment is due within fifteen (15) days of invoice date.
+3.3 Late payments shall accrue interest at 1.5% per month.
+
+4. SERVICE LEVEL AGREEMENT
+
+4.1 Provider shall maintain 99.5% uptime for Client's services.
+4.2 If uptime falls below 99%, Client is entitled to a service credit equal to 10% of monthly fees for each 1% of downtime.
+
+5. CONFIDENTIALITY
+
+5.1 Both parties agree to maintain the confidentiality of all proprietary information.
+5.2 Confidential information does not include information that is publicly available or independently developed.
+
+6. LIABILITY LIMITATIONS
+
+6.1 Except for breaches of confidentiality, neither party shall be liable for indirect or consequential damages.
+6.2 Each party's liability shall not exceed the fees paid in the preceding twelve months.
+
+7. GOVERNING LAW
+
+This Agreement shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflict of law principles.
+
+SIGNATURES:
+
+For Provider: CloudTech Solutions Inc.
+_________________________
+Name: John Smith
+Title: Chief Operating Officer
+Date: March 1, 2023
+
+For Client: Enterprise Systems Corp.
+_________________________
+Name: Sarah Johnson
+Title: Vice President, Operations
+Date: March 1, 2023

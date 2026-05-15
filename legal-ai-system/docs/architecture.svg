@@ -1,0 +1,86 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .box { fill: #f0f9ff; stroke: #0369a1; stroke-width: 2; rx: 8; }
+      .header { fill: #0369a1; }
+      .text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; fill: #1e293b; }
+      .header-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: bold; fill: white; }
+      .arrow { stroke: #475569; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .annotation { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #64748b; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#0f172a">Legal AI System Architecture</text>
+  <text x="600" y="65" text-anchor="middle" class="annotation">Document Understanding, Grounded Drafting, and Improvement from Edits</text>
+
+  <!-- Frontend Layer -->
+  <rect class="box" x="50" y="100" width="1100" height="150"/>
+  <rect class="header" x="50" y="100" width="1100" height="30"/>
+  <text x="600" y="120" text-anchor="middle" class="header-text">Frontend Layer (Next.js 14 React Application)</text>
+  
+  <text x="150" y="170" class="text">📤 UploadSection: Document upload interface</text>
+  <text x="350" y="170" class="text">📊 HistorySection: Document/draft tracking</text>
+  <text x="550" y="170" class="text">✏️ EditSection: Draft editing environment</text>
+  <text x="750" y="170" class="text">📋 DraftSection: Output preview & download</text>
+  <text x="950" y="170" class="text">🔍 ProcessingStatus: Real-time updates</text>
+
+  <!-- API Gateway -->
+  <rect class="box" x="250" y="280" width="700" height="100"/>
+  <rect class="header" x="250" y="280" width="700" height="30"/>
+  <text x="600" y="300" text-anchor="middle" class="header-text">API Gateway (FastAPI Backend)</text>
+  
+  <text x="350" y="340" class="text">📄 DocumentController: Upload & processing</text>
+  <text x="550" y="340" class="text">📝 DraftController: Generation & retrieval</text>
+  <text x="780" y="340" class="text">🔄 EditController: Learning from edits</text>
+
+  <!-- Core Services Layer -->
+  <rect class="box" x="100" y="410" width="1000" height="180"/>
+  <rect class="header" x="100" y="410" width="1000" height="30"/>
+  <text x="600" y="430" text-anchor="middle" class="header-text">Core Processing Services</text>
+  
+  <rect class="box" x="130" y="460" width="200" height="110"/>
+  <text x="230" y="490" text-anchor="middle" class="text">📃 DocumentProcessor</text>
+  <text x="230" y="515" text-anchor="middle" class="annotation">OCR + text extraction</text>
+  <text x="230" y="535" text-anchor="middle" class="annotation">Metadata parsing</text>
+  <text x="230" y="555" text-anchor="middle" class="annotation">Entity recognition</text>
+  
+  <rect class="box" x="370" y="460" width="200" height="110"/>
+  <text x="470" y="490" text-anchor="middle" class="text">🔍 RetrievalService</text>
+  <text x="470" y="515" text-anchor="middle" class="annotation">Vector search (ChromaDB)</text>
+  <text x="470" y="535" text-anchor="middle" class="annotation">Semantic chunking</text>
+  <text x="470" y="555" text-anchor="middle" class="annotation">Grounded citations</text>
+  
+  <rect class="box" x="610" y="460" width="200" height="110"/>
+  <text x="710" y="490" text-anchor="middle" class="text">📝 DraftGenerator</text>
+  <text x="710" y="515" text-anchor="middle" class="annotation">LLM-powered drafting</text>
+  <text x="710" y="535" text-anchor="middle" class="annotation">Template-based output</text>
+  <text x="710" y="555" text-anchor="middle" class="annotation">Source attribution</text>
+  
+  <rect class="box" x="850" y="460" width="200" height="110"/>
+  <text x="950" y="490" text-anchor="middle" class="text">🧠 EditLearningService</text>
+  <text x="950" y="515" text-anchor="middle" class="annotation">Delta detection</text>
+  <text x="950" y="535" text-anchor="middle" class="annotation">Pattern learning</text>
+  <text x="950" y="555" text-anchor="middle" class="annotation">Future draft optimization</text>
+
+  <!-- Data Layer -->
+  <rect class="box" x="200" y="620" width="800" height="150"/>
+  <rect class="header" x="200" y="620" width="800" height="30"/>
+  <text x="600" y="640" text-anchor="middle" class="header-text">Persistence Layer</text>
+  
+  <text x="300" y="690" class="text">🗄️ SQLite: Document metadata</text>
+  <text x="500" y="690" class="text">🧬 ChromaDB: Vector embeddings</text>
+  <text x="720" y="690" class="text">📁 File Storage: Raw uploads</text>
+  <text x="450" y="730" class="annotation">Draft history + edit logs: Version-controlled diff storage</text>
+
+  <!-- Connections -->
+  <line class="arrow" x1="600" y1="250" x2="600" y2="280"/>
+  <line class="arrow" x1="600" y1="380" x2="470" y2="460"/>
+  <line class="arrow" x1="600" y1="380" x2="710" y2="460"/>
+  <line class="arrow" x1="470" y1="570" x2="470" y2="620"/>
+  <line class="arrow" x1="710" y1="570" x2="600" y2="620"/>
+  
+</svg>
